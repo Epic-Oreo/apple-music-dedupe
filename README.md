@@ -18,10 +18,6 @@ $ amdd myplaylist.xml out.xml
 
 ## ⬇️ Installation
 
-Simple, understandable installation instructions!
-
 ```bash
-$ pip install -m 
+$ uv tool install apple-music-dedupe
 ```
-
-And be sure to specify any other minimum requirements like Python versions or operating systems.

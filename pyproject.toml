@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A tool to remove duplicate songs in a apple music playlist"
 readme = "README.md"
 authors = [
-    { name = "Oskar Laing", email = "oredgaming@gmail.com" }
+    { name = "OL", email = "oredgaming@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
