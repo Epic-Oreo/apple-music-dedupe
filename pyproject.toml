@@ -1,0 +1,19 @@
+[project]
+name = "apple-music-dedupe"
+version = "0.1.0"
+description = "A tool to remove duplicate songs in a apple music playlist"
+readme = "README.md"
+authors = [
+    { name = "Oskar Laing", email = "oredgaming@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "typer>=0.27.2",
+]
+
+[project.scripts]
+amdd = "apple_music_dedupe:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
