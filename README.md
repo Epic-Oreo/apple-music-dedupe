@@ -9,7 +9,7 @@ Apple Music dedupe is a simple tool to remove duplicate songs from a playlist. I
 
 First export your Apple Music playlist, then just point the script to the exported xml file. 
 
-<img src="./imgs/export.png" style="width:250px"/>
+<img src="https://raw.githubusercontent.com/Epic-Oreo/apple-music-dedupe/refs/heads/main/imgs/export.png" style="width:250px"/>
 
 ```bash
 $ amdd myplaylist.xml out.xml
