@@ -1,6 +1,6 @@
 [project]
 name = "apple-music-dedupe"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool to remove duplicate songs in a apple music playlist"
 readme = "README.md"
 authors = [
@@ -17,3 +17,6 @@ amdd = "apple_music_dedupe:main"
 [build-system]
 requires = ["uv_build>=0.12.9,<0.13.0"]
 build-backend = "uv_build"
+
+[project.urls]
+Repository = "https://github.com/Epic-Oreo/apple-music-dedupe"

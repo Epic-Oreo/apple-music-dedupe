@@ -32,13 +32,6 @@ def getKey(dict: ET.Element[str], key: str):
   raise typer.Abort()
 
 
-def findPlaylist(playlists: ET.Element[str], search: str):
-  for playlist in playlists:
-      if getKey(playlist, "Name").text == search or getKey(playlist, "Playlist ID").text == search:
-        return playlist
-
-  raise typer.BadParameter("Playlist not found!")
-
 def dedupe(target: Path, output: Path, targetPlaylist: str):
   tree = ET.parse(target)
   root = tree.getroot()
